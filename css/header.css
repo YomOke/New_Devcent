@@ -1,0 +1,129 @@
+:root {
+    --color-primary: #1976d2;
+    --color-off-white: #faf9f6;
+    --color-faded-white: #e0e1e4;
+    --color-white: #ffffff;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-white);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 4px solid var(--color-primary);
+}
+
+.header-nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav-item {
+    margin-left: 20px;
+}
+
+.header-nav-item i {
+    font-size: 20px;
+}
+
+.header-nav-logo {
+    height: 37px;
+}
+
+.search-box {
+    height: 38px;
+}
+
+.search-input {
+    width: 280px;
+    height: inherit;
+    margin-right: -35px;
+    border-radius: 6px;
+    padding-left: 5px;
+}
+
+.search-input:focus {
+    outline-color: var(--color-primary);
+}
+
+.search-btn {
+    height: 34px;
+    border: none;
+    background-color: var(--color-white);
+    padding: 7px 7px;
+    border-radius: 6px 6px 6px 6px;
+}
+
+.search-btn i {
+    font-size: 14px;
+}
+
+.search-btn:hover {
+    color: blue;
+    background-color: var(--color-faded-white);
+    cursor: pointer;
+}
+
+.create-post-btn {
+    border: 2px solid var(--color-primary);
+    border-radius: 8px;
+    padding: 5px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-post-btn a {
+    text-decoration: none;
+}
+
+.create-post-btn:hover {
+    background-color: var(--color-primary);
+    cursor: pointer;
+}
+
+.create-post-btn:hover>a {
+    text-decoration: underline;
+    color: var(--color-white);
+}
+
+.header-icon-bell {
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+.header-icon-bell:hover {
+    background-color: var(--color-faded-white);
+}
+
+.header-icon-user {
+    cursor: pointer;
+    margin-right: 20px;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.header-icon-user:hover {
+    background-color: var(--color-faded-white);
+}
+
+.header-notif-val {
+    background-color: red;
+    color: var(--color-white);
+    border-radius: 2px;
+    padding: 3px;
+    font-size: 10px;
+    position: absolute;
+    right: 0;
+    top: -10px;
+}
+
+.header-notif {
+    position: relative;
+}

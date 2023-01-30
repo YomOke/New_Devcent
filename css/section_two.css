@@ -1,0 +1,76 @@
+:root {
+  --color-primary: #1976d2;
+  --color-off-white: #faf9f6;
+  --color-faded-white: #e0e1e4;
+  --color-white: #ffffff;
+}
+
+.section-two {
+  flex: 0 1 52%;
+  font-size: 20px;
+}
+
+.section-two-nav {
+  margin-top: 22px;
+  margin-bottom: 15px;
+}
+.section-two-nav > a,
+a:active {
+  font-weight: 900;
+}
+
+.section-two-nav a:hover {
+  background-color: var(--color-white);
+  color: var(--color-primary);
+}
+
+.section-two-post-container {
+  display: flex;
+  cursor: pointer;
+  background-color: var(--color-white);
+  margin: 10xp 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.section-two-user-img img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.section-two-post-time {
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.section-two-post-body > h2,
+nav,
+.section-two-comm-react-save {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.section-two-post-body h2:hover {
+  color: var(--color-primary);
+}
+.section-two-comm-react-save {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.section-two-comm-react-save:last-child {
+  margin-right: 8px;
+}
+
+,
+.section-two-save-btn {
+  margin-left: 5px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(128, 128, 128, 0.8);
+  cursor: pointer;
+}

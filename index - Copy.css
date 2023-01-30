@@ -1,0 +1,21 @@
+:root {
+    --color-primary: #1976d2;
+    --color-off-white: #faf9f6;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    color: black;
+    background-color: var(--color-off-white);
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}

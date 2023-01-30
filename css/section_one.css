@@ -1,0 +1,86 @@
+:root {
+  --color-primary: #1976d2;
+  --color-off-white: #faf9f6;
+  --color-faded-white: #e0e1e4;
+  --color-white: #ffffff;
+}
+
+.section-one {
+  /* flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 24%; */
+  flex: 0 1 20%;
+  font-size: 20px;
+}
+
+.section-one-nav {
+  padding-right: 15px;
+}
+.section-one-nav-list {
+  list-style-type: none;
+}
+
+.section-one-nav-item {
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.section-one-nav-item:hover {
+  background-color: rgba(25, 118, 210, 0.1);
+}
+.section-one-nav-item > a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+.section-one-nav-item a:hover {
+  text-decoration: underline;
+  color: var(--color-primary);
+}
+
+.section-one-nav-item i {
+  margin-right: 9px;
+  color: var(--color-primary);
+}
+.heading-other {
+  margin-left: 8px;
+  margin-bottom: 40px;
+  margin-top: 25px;
+  font-weight: 600;
+}
+.section-one-social-icons {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 5px;
+}
+
+.section-one-social-icons a,
+a:link,
+a:visited a:active {
+  text-decoration: none;
+  color: black;
+  margin-right: 5px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.section-one-social-icons:hover {
+  background-color: rgba(25, 118, 210, 0.1);
+}
+
+.section-one-tags-heading {
+  margin-left: 8px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.section-one-tags-heading a {
+  margin-left: 120px;
+  padding: 7px;
+}
+
+.section-one-tags-heading a:hover {
+  background-color: rgba(25, 118, 210, 0.1);
+}
